@@ -1,0 +1,16 @@
+
+
+table,tr,td {
+    
+    
+    border: 1px solid black;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.topLeft,.topMid,.topRight,.midLeft,.midMid,.midRight,.botLeft,.botMid,.botRight,.Reset{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
