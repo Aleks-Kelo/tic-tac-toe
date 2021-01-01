@@ -1,16 +1,22 @@
 
-
-table,tr,td {
-    
-    
+table,td{
     border: 1px solid black;
-    padding: 50px;
-    margin-top: 50px;
-    text-align: center;
-    
+}
+table{
+    padding-top: 20px;
 }
 
-.topLeft,.topMid,.topRight,.midLeft,.midMid,.midRight,.botLeft,.botMid,.botRight,.Reset{
+th{
+    padding: 10px;
+}
+
+
+td{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+td,#Reset,#changePlayer{
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
 }
