@@ -1,35 +1,3 @@
-/*
-<table style="margin: auto;">
-    <tr>
-        <th colspan="3" id="title">Tic-Tac-Toe</th>
-    </tr>
-
-    <tr>
-        <th id="currentPlayer">Change player</th>
-        <th><span id="status">X</span> is next</th>
-        <th id="reset">Reset</th>
-    </tr>
-
-    <tr>
-        <td class="gamePlace V1 H1 D1"></td>
-        <td class="gamePlace V2 H1"></td>
-        <td class="gamePlace V3 H1 D2"></td>
-    </tr>
-
-    <tr>
-        <td class="gamePlace V1 H2"></td>
-        <td class="gamePlace V2 H2 D1 D2"></td>
-        <td class="gamePlace V3 H2"></td>
-    </tr>
-
-    <tr>
-        <td class="gamePlace V1 H3 D2"></td>
-        <td class="gamePlace V2 H3"></td>
-        <td class="gamePlace V3 H3 D1"></td>
-    </tr>
-</table>
-*/
-
 let table = document.createElement("table");
 table.setAttribute("style","margin:auto");
 document.body.appendChild(table);
@@ -97,44 +65,10 @@ td[8].setAttribute('class', 'gamePlace V3 H3 D1');
 tr[4].appendChild(td[8]);
 
 
-
-
 table.appendChild(tr[1]);
 table.appendChild(tr[2]);
 table.appendChild(tr[3]);
 table.appendChild(tr[4]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 let boxes = document.querySelectorAll(".gamePlace");
@@ -148,7 +82,6 @@ let comboNames = ['.V1', '.V2', '.V3', '.H1', '.H2', '.H3', '.D1', '.D2']
 let combos = comboNames.map((className) => {
     return document.querySelectorAll(className);
 })
-
 
 
 const move = n => {
